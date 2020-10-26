@@ -53,8 +53,17 @@ button{
     outline: none;
     border: none;
     cursor: pointer;
+    line-height: 1.1;
 }
 button.active{
     background-color: white;
     color: cadetblue;
+}
+@media screen and (max-width:480px){
+    .tabs{
+        flex-direction: column;
+    }
+    button{
+        padding:18px 10px;
+    }
 }
