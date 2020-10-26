@@ -45,4 +45,16 @@ img{
 button{
     display: inline-block;
     flex: 1;
+    background-color:aquamarine;
+    color:white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+button.active{
+    background-color: white;
+    color: cadetblue;
 }
